@@ -230,3 +230,21 @@ header{
 .movie-type{
     font-size: 0.938rem;
 }
+.play-btn{
+    position: absolute;
+    bottom: 0.8rem;
+    right: 0.8rem;
+}
+/* Swiper Buttons */
+.swiper-btn{
+    display: flex;
+}
+.swiper-button-next, .swiper-button-prev{
+    position: static !important;
+    margin: 0 0 0 10px !important;
+}
+.swiper-button-next::after, .swiper-button-prev::after{
+    color: var(--text-color);
+    font-size: 18px !important;
+    font-weight: 700;
+}
