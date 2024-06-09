@@ -74,6 +74,7 @@ header{
     padding: 8px 15px;
     background: var(--container-color);
     border-radius: 4rem;
+    margin-right: 1rem;
 }
 .search-box .bx{
     font-size: 1.1rem;
@@ -88,4 +89,15 @@ header{
     color: var(--text-color);
     background: transparent;
     font-size: 0.938rem;
+}
+/* User */
+.user{
+    display: flex;
+}
+.user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
 }
