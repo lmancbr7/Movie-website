@@ -371,6 +371,9 @@ header{
     background: hsl(234 20% 20% / 60%);
     z-index: 400;
 }
+.video-container.show-video{
+    display: flex;
+}
 .video-box{
     position: relative;
     width: 69%;
