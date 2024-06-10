@@ -569,3 +569,48 @@ header{
         right: 2rem;
     }
 }
+@media (max-width: 524px){
+    .home{
+        min-height: 380px;
+    }
+    .heading{
+        padding: 2px 14px;
+    }
+    .heading-title{
+        font-size: 1rem;
+    }
+    .play-text{
+        padding: 20px;
+    }
+    .play-movie{
+        bottom: 4rem;
+    }
+    .video-box{
+        width: 94%;
+    }
+    .cast-heading{
+        font-size: 1.1rem;
+    }
+    .cast-title{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 408px){
+    *{
+        scroll-padding-top: 5rem;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 5px;
+    }
+    .search-box{
+        max-width: 100%;
+        width: 100%;
+        border-radius: 4px;
+        order: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
