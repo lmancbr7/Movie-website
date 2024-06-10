@@ -404,7 +404,7 @@ header{
 }
 /* About */
 .about-movie{
-    margin-top: 2rem;
+    margin-top: 2rem !important;
 }
 .about-movie h2{
     font-size: 1.4rem;
@@ -500,5 +500,38 @@ header{
     }
     .movies-content{
         grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+    }
+}
+@media (max-width: 888px){
+    .nav{
+        padding: 14px 0;
+    }
+    .home{
+        min-height: 440px;
+        margin-top: 4rem !important;
+    }
+    .home-text{
+        padding-left: 25px;
+    }
+    .home-title{
+        font-size: 1.6rem;
+    }
+    .watch-btn span{
+        font-size: 0.9rem;
+    }
+    .movie-title{
+        font-size: 1rem;
+        padding-right: 30px;
+    }
+    .play-container{
+        min-height: 440px;
+        margin-top: 4rem !important;
+    }
+    .play-movie{
+        bottom: 14rem;
+        right: 4rem;
+    }
+    .cast{
+        justify-content: center;
     }
 }
