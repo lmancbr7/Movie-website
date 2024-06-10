@@ -429,3 +429,27 @@ header{
     justify-content: center;
     margin-top: 2rem;
 }
+.download-title{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 1.6rem 0;
+    color: var(--main-color);
+}
+.download-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+.download-links a{
+    text-align: center;
+    background: var(--main-color);
+    padding: 12px 24px;
+    color: var(--body-color);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.download-links a:hover{
+    background: var(--hover-color);
+}
