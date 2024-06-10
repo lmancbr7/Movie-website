@@ -389,3 +389,12 @@ header{
     font-size: 40px;
     color: var(--main-color);
 }
+/* About */
+.about-movie{
+    margin-top: 2rem;
+}
+.about-movie h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--main-color);
+}

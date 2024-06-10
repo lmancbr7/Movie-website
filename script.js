@@ -41,10 +41,15 @@ var swiper = new Swiper(".popular-content", {
 let playButton = document.querySelector('.play-movie');
 let video = document.querySelector('.video-container');
 let myvideo = document.querySelector('#myvideo');
-let closeBtn = document.querySelector('.close-video');
+let closebtn = document.querySelector('.close-video');
 
 playButton.onclick = () => {
     video.classList.add("show-video");
     // Auto Play When Click On Button
     myvideo.play();
+}
+closebtn.onclick = () => {
+    video.classList.remove("show-video");
+    // Pause On Close Video
+    myvideo.pause();
 }
